@@ -50,57 +50,372 @@
 <div class="clearfix">
   <div class="column menu">
     <ul>
-      <li>Appet.</li>
-      <li>M. Course</li>
-      <li>Desserts M</li>
-      <li>Bev.</li>
+      <li>Appetizers</li>
+      <li>Main Course</li>
+      <li>Desserts </li>
+      <li>Beverages</li>
     </ul>
   </div>
 
   <div class="column content">
     <h1>Appetizers</h1>
-    <br>Vegeable Spring Rolls...............$6:99</br>
-    <br>Vegetable Noodles...................$7:99</br>
-    <br>Fish Pakora.........................$9:99</br>
-    <br>Vegeable Pakora.....................$10:99</br>
-    <br>Chicken Samosa......................$13:99</br>
-    <br>Paneer Pakora.........................$8:99</br>
-   
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+<table style="width:100%">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Item</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Vegetable Spring Rolls</td>
+    <td>$9.99</td>
+  </tr>
+  <tr>
+    <td>Vegetable Noodles</td>
+    <td>$9.99</td>
+  </tr>
+  <tr>
+  <td>Cocktail Chicken Samosas</td>
+    <td>$9.99</td>
+     </tr>
+  <tr>
+   <td>Chicken Wings</td>
+    <td>$9.99</td>
+     </tr>
+  <tr>
+    <td>Paneer Pakora</td>
+    <td>$9.99</td>
+  </tr>
+  <tr>
+    <td>fish Pakora</td>
+    <td>$9.99</td>
+  </tr>
+  <tr>
+  <td>Chicken Wings</td>
+    <td>$8.99</td>
+     </tr>
+  <tr>
+   <td>Vegetable Pakora</td>
+    <td>$7.99</td>
+</table>
+
+</body>
+</html>
+
     
     <h1>Breads</h1>
-    <br>Naan...............$16:99</br>
-    <br>Garlic Naan...................$17:99</br>
-    <br>Tandoori Roti.........................$19:99</br>
-    <br>Paneer Naan.....................$17:99</br>
-    <br>Aloo Paranthe......................$13:99</br>
-    <br>Bhatura.........................$18:99</br>
+     <!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+<table style="width:100%">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Item</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Tandoori Naan</td>
+    <td>$19.99</td>
+  </tr>
+  <tr>
+    <td>Naan</td>
+    <td>$17.99</td>
+  </tr>
+  <tr>
+  <td>Garlic Naan</td>
+    <td>$16.99</td>
+     </tr>
+  <tr>
+   <td>Paneer Naan</td>
+    <td>$14.99</td>
+     </tr>
+  <tr>
+    <td>Spinach Naan</td>
+    <td>$15.99</td>
+  </tr>
+  <tr>
+    <td>Onion Kulcha</td>
+    <td>$14.99</td>
+  </tr>
+  <tr>
+  <td>Aloo Paranthe</td>
+    <td>$18.99</td>
+     </tr>
+  <tr>
+   <td>Gobi Paranthe</td>
+    <td>$17.99</td>
+</table>
+
+</body>
+</html>
+
     
     <h1>Chicken Specials</h1>
-    <br>Butter Chicken...............$16:99</br>
-    <br>Coconut Curry Chicken................$17:99</br>
-    <br>Kadahi chicken.........................$19:99</br>
-    <br>Chicken Tikka Masala.....................$17:99</br>
-    <br>Chicken Saag......................$13:99</br>
-    <br>Chicken Curry.........................$18:99</br>
+     <!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+<table style="width:100%">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Item</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Butter Chicken</td>
+    <td>$19.99</td>
+  </tr>
+  <tr>
+    <td>Coconut Curry Chicken</td>
+    <td>$17.99</td>
+  </tr>
+  <tr>
+  <td>Mango Chicken Curry</td>
+    <td>$16.99</td>
+     </tr>
+  <tr>
+   <td>Tasty Cream Curry</td>
+    <td>$14.99</td>
+     </tr>
+  <tr>
+    <td>Chicken Tikka Masala</td>
+    <td>$15.99</td>
+  </tr>
+  <tr>
+    <td>Kadahi Chicken</td>
+    <td>$14.99</td>
+  </tr>
+  <tr>
+  <td>Chicken Curry</td>
+    <td>$18.99</td>
+     </tr>
+  <tr>
+   <td>Chicken Muglai</td>
+    <td>$17.99</td>
+</table>
+
+</body>
+</html>
+
     
     
     <h1>Vegetarian Specials</h1>
-   <br>Tasty Cream paneer...............$16:99</br>
-    <br>Dal Makhni................$17:99</br>
-    <br>Yellow Dal Fry.........................$19:99</br>
-    <br> Sahi Paneer.....................$17:99</br>
-    <br>Palak Paneer......................$13:99</br>
-    <br>Saag........................$18:99</br> 
+   <!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+<table style="width:100%">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Item</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Tasty Cream Paneer</td>
+    <td>$19.99</td>
+  </tr>
+  <tr>
+    <td>Dal Makhni</td>
+    <td>$17.99</td>
+  </tr>
+  <tr>
+  <td>Yellow Dal Fry</td>
+    <td>$16.99</td>
+     </tr>
+  <tr>
+   <td>Shahi Paneer</td>
+    <td>$14.99</td>
+     </tr>
+  <tr>
+    <td>Chilli Paneer</td>
+    <td>$15.99</td>
+  </tr>
+  <tr>
+    <td>Palak Paneer</td>
+    <td>$14.99</td>
+  </tr>
+  <tr>
+  <td>Malai Kofta</td>
+    <td>$18.99</td>
+     </tr>
+  <tr>
+   <td>Kari Pakora</td>
+    <td>$17.99</td>
+</table>
+
+</body>
+</html>
 
     
-    <h1>Beveages (Non-Alcoholic)</h1>
-    <br>Coke......................................................$3:99</br>
-    <br>Root Beer.................................................$3:99</br>
-    <br>Mango Lassi...............................................$5:99</br>
-    <br>Milkshake (Vanilla, Chocolate, Mango)..............$3:99</br>
-    <br>Milk......................................................$3:99</br>
-    <br>Water......................................................$1:99</br>
-    <br>Fiji Water......................................................$4:99</br>
+    <h1>Dessert Menu</h1>
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+<table style="width:100%">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Item</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Hot Gulabjamun</td>
+    <td>$4.99</td>
+  </tr>
+  <tr>
+    <td>Kheer</td>
+    <td>$4.99</td>
+  </tr>
+  <tr>
+  <td>Rasmalai</td>
+    <td>$4.99</td>
+     </tr>
+  <tr>
+   <td>Mango Ice Cream</td>
+    <td>$4.99</td>
+     </tr>
+  <tr>
+    <td>Yummy Kulfi</td>
+    <td>$4.99</td>
+  </tr>
+  <tr>
+    <td>Tasty Red Velvet Cake</td>
+    <td>$4.99</td>
+  </tr>
+  <tr>
+  <td>Chocolate</td>
+    <td>$4.99</td>
+     </tr>
+  <tr>
+   <td>Halwa Puri</td>
+    <td>$4.99</td>
+</table>
+
+</body>
+</html>
+     <h1>Beveages (Non-Alcoholic)</h1>
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+<table style="width:100%">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Item</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Coke</td>
+    <td>$1.99</td>
+  </tr>
+  <tr>
+    <td>Root Beer</td>
+    <td>$1.99</td>
+  </tr>
+  <tr>
+  <td>Fanta</td>
+    <td>$1.99</td>
+     </tr>
+  <tr>
+   <td>Lassi</td>
+    <td>$1.99</td>
+     </tr>
+  <tr>
+    <td>Mango Lassi</td>
+    <td>$5.99</td>
+  </tr>
+  <tr>
+    <td>Milkshake (Vanilla, Strawberry, Chocolate, Mango</td>
+    <td>$1.99</td>
+  </tr>
+  <tr>
+  <td>Milk</td>
+    <td>$1.99</td>
+     </tr>
+  <tr>
+   <td>Water</td>
+    <td>$1.50</td>
+</table>
+
+</body>
+</html>
+    
     
     
     
@@ -110,7 +425,7 @@
 </div>
 
 <div class="footer">
-  <p>Footer Text</p>
+ 
 </div>
 
 </body>
