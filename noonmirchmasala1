@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: red;
+    color: black;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: black;
+    color: red;
+}
+.menu li:hover {
+    background-color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Noon, Mirch, Masala</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>About Us</li>
+      <li>Menu Bar</li>
+      <li>Images</li>
+      <li>Location</li>
+      
+      <img src="https://thumb1.shutterstock.com/display_pic_with_logo/2501749/208100770/stock-vector-festive-jalapeno-pepper-208100770.jpg" alt="Mountain View" style="width:208px;height:208px;">
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>"Noon, Mirch Masala"</h1>
+    <p>At Noon, Mirch Masala , where traditional dishes from all regions of India are served, you will find distinctive, savory food that will tickle the taste buds and delight the belly. Some of the Indian fusion dishes, like mango and coconut chicken curry, are to die for and you will not find anywhere else. You have the choice of either choosing to come down to our fine establishment and dine here, or you can order the food with a press of a finger and dine in the comfort of your own home.</p>
+    <p><img src="https://bigapplecurry.files.wordpress.com/2012/11/istock_000019639558_medium.jpg" alt="Smiley face" style="float:right;width:328px;height:228px;">
+  </div>
+</div>
+
+<div class="footer">
+  <p>For more information or to make a reservatin, please call the number, (604)-476-4736</p>
+</div>
+
+</body>
+</html>
