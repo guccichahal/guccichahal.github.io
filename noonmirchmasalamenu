@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: red;
+    color: black;
+    padding: 20px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 12px;
+    margin-bottom: 12px;
+    background-color: black;
+    color: red;
+}
+.menu li:hover {
+    background-color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Menu Page</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Appet.</li>
+      <li>M. Course</li>
+      <li>Desserts M</li>
+      <li>Bev.</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>Appetizers</h1>
+    <br>Vegeable Spring Rolls...............$6:99</br>
+    <br>Vegetable Noodles...................$7:99</br>
+    <br>Fish Pakora.........................$9:99</br>
+    <br>Vegeable Pakora.....................$10:99</br>
+    <br>Chicken Samosa......................$13:99</br>
+    <br>Paneer Pakora.........................$8:99</br>
+   
+    
+    <h1>Breads</h1>
+    <br>Naan...............$16:99</br>
+    <br>Garlic Naan...................$17:99</br>
+    <br>Tandoori Roti.........................$19:99</br>
+    <br>Paneer Naan.....................$17:99</br>
+    <br>Aloo Paranthe......................$13:99</br>
+    <br>Bhatura.........................$18:99</br>
+    
+    <h1>Chicken Specials</h1>
+    <br>Butter Chicken...............$16:99</br>
+    <br>Coconut Curry Chicken................$17:99</br>
+    <br>Kadahi chicken.........................$19:99</br>
+    <br>Chicken Tikka Masala.....................$17:99</br>
+    <br>Chicken Saag......................$13:99</br>
+    <br>Chicken Curry.........................$18:99</br>
+    
+    
+    <h1>Vegetarian Specials</h1>
+   <br>Tasty Cream paneer...............$16:99</br>
+    <br>Dal Makhni................$17:99</br>
+    <br>Yellow Dal Fry.........................$19:99</br>
+    <br> Sahi Paneer.....................$17:99</br>
+    <br>Palak Paneer......................$13:99</br>
+    <br>Saag........................$18:99</br> 
+
+    
+    <h1>Beveages (Non-Alcoholic)</h1>
+    <br>Coke......................................................$3:99</br>
+    <br>Root Beer.................................................$3:99</br>
+    <br>Mango Lassi...............................................$5:99</br>
+    <br>Milkshake (Vanilla, Chocolate, Mango)..............$3:99</br>
+    <br>Milk......................................................$3:99</br>
+    <br>Water......................................................$1:99</br>
+    <br>Fiji Water......................................................$4:99</br>
+    
+    
+    
+    
+    
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer Text</p>
+</div>
+
+</body>
+</html>
