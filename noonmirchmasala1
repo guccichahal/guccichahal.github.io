@@ -50,10 +50,9 @@
 <div class="clearfix">
   <div class="column menu">
     <ul>
-      <li>About Us</li>
-      <li>Menu Bar</li>
-      <li>Images</li>
-      <li>Location</li>
+      <li><a href="https://guccichahal.github.io/mainpage.html">Main Page</a></li>
+      <li><a href="https://guccichahal.github.io/menubar.html">Menu Bar</a></li>
+      <li><a href="https://guccichahal.github.io/location.html">Location</a></li>
       
       <img src="https://thumb1.shutterstock.com/display_pic_with_logo/2501749/208100770/stock-vector-festive-jalapeno-pepper-208100770.jpg" alt="Mountain View" style="width:208px;height:208px;">
     </ul>
