@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #33b5e5;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Location and Directions</h1>
+  
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+   
+  </div>
+
+  <div class="column content">
+    <h1>Location</h1>
+  <br>8295 120St, Delta BC,</br>
+    <h1>Directions</h1>
+    <p>Head west on 84 Ave toward 142 St</p>
+    <p>Turn right onto 140 St</p>
+    <p>Turn left onto 88 Ave W</p>
+    <p>Turn left onto 128 St</p>
+    <p>Turn right onto 82 Ave</p>
+    <p>Turn right onto 120 St/Scott Rd</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer Text</p>
+</div>
+
+</body>
+</html>
